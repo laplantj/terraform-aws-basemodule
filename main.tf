@@ -8,7 +8,7 @@ resource "aws_instance" "myawsserver" {
   }
 }
 
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "bucket" {
   bucket = var.bucketname
 
   tags = {
