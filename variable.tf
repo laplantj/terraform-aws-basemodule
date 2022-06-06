@@ -8,7 +8,7 @@ default = "t2.micro"
 }
 
 variable "name" {
-default = "server1"
+default = "server1-josh"
 }
 
 variable "bucketname" {
